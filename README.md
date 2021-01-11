@@ -1,2 +1,2 @@
-<b>Curso do Bradesco Virtual de JS</b>
- <n1>Curso de javascript bradesco virtual</n1>
+<b>Javascript</b>
+ <n1>Curso de javascript</n1>
