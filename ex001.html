@@ -16,17 +16,18 @@
 
         var js_nome;
 
-        js_nome = window.prompt ('Entre com seu nome:', 'Digite seu nome nesta caixa') 
+        js_nome = window.prompt ('Entre com seu nome:', 'Digite seu nome nesta caixa para saber sua média') 
 
-        window.confirm ('Está gostando do curso?')
+
+        var n1 = Number.parseFloat(window.prompt('Digite a primeira nota'))
+        var n2 = Number.parseFloat(window.prompt('Digite a segunda nota'))
+        var n3 = Number.parseFloat(window.prompt('Digite a terceira nota'))
+        var n4 = Number.parseFloat(window.prompt('Digite a quarta nota'))
+        var media = (n1+n2+n3+n4)/4
+
+        window.alert('A Sua média é:' + media)
 
         document.write (' Olá ' + js_nome + ', Seja bem vindo!') 
-
-        var n1 = Number.parseInt(window.prompt('Digite um numero'))
-        var n2 = Number.parseInt(window.prompt('Digite outro numero'))
-        var soma = n1 + n2
-
-        window.alert('A Soma dos numeros é:' + soma)
 
     </script>
 </body>
